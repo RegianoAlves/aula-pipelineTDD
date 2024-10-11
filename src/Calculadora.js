@@ -20,7 +20,6 @@ class Calculadora {
   }
 
   soma(numero) {
-    // TO DO
     if (typeof numero !== 'number'){
       throw new TypeError("O argumento deve ser um número válido");
     }
